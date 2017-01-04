@@ -1,0 +1,64 @@
+#== Datasets ==#
+ jdtset 1 2 3
+ ndtset 3
+
+#== Basis set ==#
+ ecut 10.0
+ ecutsm 0.5
+
+#== Bands ==#
+ nband 14
+
+#== k-point grid ==#
+ kptopt 3
+ ngkpt 2 2 2
+ nshiftk 1
+ shiftk    0.0    0.0    0.0
+
+#== SCF procedure ==#
+ iscf1 -2
+ iscf2 -2
+ iscf3 -2
+ tolwfr1 1e-18
+ tolwfr2 1e-18
+ tolwfr3 1e-18
+
+#== GW procedure ==#
+ optdriver3 7
+
+#== Unit cell ==#
+ acell    1.0    1.0    1.0
+ natom 2
+ ntypat 2
+ rprim
+    0.000000000000    3.851503972618    3.851503972618
+    3.851503972618    0.000000000000    3.851503972618
+    3.851503972618    3.851503972618    0.000000000000
+ typat 1 2
+ xred
+    0.0000000000    0.0000000000    0.0000000000
+    0.5000000000    0.5000000000    0.5000000000
+ znucl 3 9
+
+#== Files ==#
+ irdden1 1
+ irdden2 1
+ irdden3 1
+ irdwfk3 1
+ irdwfq3 1
+
+#== Other ==#
+ ddb_ngqpt3 4 4 4
+ ddb_shiftq3    0.0    0.0    0.0
+ eph_task3 2
+ istwfk1 *1
+ istwfk2 *1
+ nnsclo1 40
+ nnsclo2 40
+ nqpt2 1
+ nqpt3 1
+ prtphdos3 0
+ qpt2    0.0125000000    0.0000000000    0.0000000000
+ qpt3    0.0125000000    0.0000000000    0.0000000000
+ qptopt3 0
+
