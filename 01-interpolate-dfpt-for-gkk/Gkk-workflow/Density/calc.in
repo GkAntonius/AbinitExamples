@@ -1,19 +1,20 @@
-#== Basis set ==#
+
+#====== Basis set =====================#
  ecut 10.0
  ecutsm 0.5
 
-#== k-point grid ==#
+#====== k-point grid ==================#
  kptopt 1
  ngkpt 4 4 4
  nshiftk 1
  shiftk    0.0    0.0    0.0
 
-#== SCF procedure ==#
+#====== SCF procedure =================#
  iscf 5
  nstep 30
  tolvrs 1e-10
 
-#== Unit cell ==#
+#====== Unit cell =====================#
  acell    1.0    1.0    1.0
  natom 2
  ntypat 2

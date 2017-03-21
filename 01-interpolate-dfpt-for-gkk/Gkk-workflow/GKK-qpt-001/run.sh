@@ -2,7 +2,7 @@
 
 
 MPIRUN='mpirun -n 4'
-ABINIT='/path/to/abinit/build/src/98_main/abinit'
+ABINIT='abinit'
 
 ln -nfs ../../Density/out_data/odat_DEN input_data/idat_DS1_DEN
 ln -nfs ../../Density/out_data/odat_DEN input_data/idat_DS2_DEN
